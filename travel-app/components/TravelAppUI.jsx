@@ -4,6 +4,7 @@ import baliImage from '../../travel-app/src/assets/bali.jpg';
 import santoriniImage from '../../travel-app/src/assets/santorini.jpg';
 import cookingclassImage from '../../travel-app/src/assets/cookingclass.jpg';
 import sdImage from '../../travel-app/src/assets/sd.jpg';
+import winestastingImage from '../../travel-app/src/assets/winetasting.jpg';
 
 const TravelAppUI = () => {
   return (
@@ -124,7 +125,7 @@ const TravelAppUI = () => {
               {
                 title: 'Wine Tasting',
                 location: 'Tuscany, Italy',
-                image: '/api/placeholder/150/150'
+                image: winestastingImage,
               }
             ].map((experience, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md min-w-[150px]">
