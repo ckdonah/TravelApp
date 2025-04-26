@@ -3,6 +3,7 @@ import { Search, Map, Calendar, User, Home, Compass, MessageSquare, Bookmark } f
 import baliImage from '../../travel-app/src/assets/bali.jpg';
 import santoriniImage from '../../travel-app/src/assets/santorini.jpg';
 import cookingclassImage from '../../travel-app/src/assets/cookingclass.jpg';
+import sdImage from '../../travel-app/src/assets/sd.jpg';
 
 const TravelAppUI = () => {
   return (
@@ -118,7 +119,7 @@ const TravelAppUI = () => {
               {
                 title: 'Scuba Diving',
                 location: 'Great Barrier Reef',
-                image: '/api/placeholder/150/150'
+                image: sdImage,
               },
               {
                 title: 'Wine Tasting',
