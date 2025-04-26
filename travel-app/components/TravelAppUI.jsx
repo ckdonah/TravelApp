@@ -2,6 +2,7 @@ import React from 'react';
 import { Search, Map, Calendar, User, Home, Compass, MessageSquare, Bookmark } from 'lucide-react';
 import baliImage from '../../travel-app/src/assets/bali.jpg';
 import santoriniImage from '../../travel-app/src/assets/santorini.jpg';
+import cookingclassImage from '../../travel-app/src/assets/cookingclass.jpg';
 
 const TravelAppUI = () => {
   return (
@@ -112,7 +113,7 @@ const TravelAppUI = () => {
               {
                 title: 'Cooking Class',
                 location: 'Tokyo, Japan',
-                image: '/api/placeholder/150/150'
+                image: cookingclassImage
               },
               {
                 title: 'Scuba Diving',
